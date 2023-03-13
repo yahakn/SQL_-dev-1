@@ -1,0 +1,72 @@
+--test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
+
+create table employee (
+	id INTEGER,
+	name VARCHAR(50),
+	birthday DATE,
+	email VARCHAR(100)
+  
+  Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+
+nsert into author (first_name, birthday, email) values ('Imelda', '1948-06-16 10:35:51', 'ilegerwood0@sina.com.cn');
+insert into author (first_name, birthday, email) values ('Charlie', '1919-12-29 14:28:54', 'cchedgey1@myspace.com');
+insert into author (first_name, birthday, email) values ('Juliann', '1940-06-27 13:55:39', 'jkillerby2@ucla.edu');
+insert into author (first_name, birthday, email) values ('Amitie', '1945-02-19 12:42:07', 'agarrity3@fotki.com');
+insert into author (first_name, birthday, email) values ('Fayina', '1945-12-27 09:09:51', 'fhorribine4@alibaba.com');
+insert into author (first_name, birthday, email) values ('Cathe', '1900-08-17 00:56:13', 'cevangelinos5@newsvine.com');
+insert into author (first_name, birthday, email) values ('Bobinette', '1930-06-09 06:47:05', 'balderton6@hhs.gov');
+insert into author (first_name, birthday, email) values ('Marylou', '1970-10-10 06:36:05', 'mfrench7@dagondesign.com');
+insert into author (first_name, birthday, email) values ('Kristien', '1959-03-08 04:49:09', 'kskiplorne8@sciencedaily.com');
+insert into author (first_name, birthday, email) values ('Hynda', '1937-11-03 18:10:11', 'hholbie9@weebly.com');
+insert into author (first_name, birthday, email) values ('Tierney', '1975-09-17 15:58:43', 'tcanellasa@irs.gov');
+insert into author (first_name, birthday, email) values ('Chrysa', '1972-12-15 00:57:30', 'couldcottb@smh.com.au');
+insert into author (first_name, birthday, email) values ('Ilyssa', '1909-11-13 12:28:35', 'iaddicottc@dailymail.co.uk');
+insert into author (first_name, birthday, email) values ('Drusie', '1976-05-27 05:28:39', 'dchritchlowd@ucla.edu');
+insert into author (first_name, birthday, email) values ('Carena', '1931-08-11 15:46:35', 'cfortnume@bigcartel.com');
+insert into author (first_name, birthday, email) values ('Erinn', '1930-03-10 15:55:20', 'ebranifff@tiny.cc');
+insert into author (first_name, birthday, email) values ('Sidonnie', '1955-08-10 21:44:49', 'sbremingg@dailymail.co.uk');
+insert into author (first_name, birthday, email) values ('Maureen', '1964-09-14 12:06:13', 'mvannonih@cnet.com');
+insert into author (first_name, birthday, email) values ('Jeffry', '1914-04-18 09:06:28', 'jgrevei@independent.co.uk');
+insert into author (first_name, birthday, email) values ('Felike', '1951-05-26 10:13:07', 'fwhitfordj@salon.com');
+insert into author (first_name, birthday, email) values ('Gray', '1974-11-01 15:01:07', 'gsabathek@un.org');
+insert into author (first_name, birthday, email) values ('Demeter', '1952-01-21 17:22:15', 'dpevreall@pagesperso-orange.fr');
+insert into author (first_name, birthday, email) values ('Munroe', '1964-06-25 07:59:11', 'mmcaleesm@surveymonkey.com');
+insert into author (first_name, birthday, email) values ('Tripp', '1905-11-29 19:48:26', 'tivashchenkon@google.com');
+insert into author (first_name, birthday, email) values ('Husein', '1962-06-04 19:18:03', 'hnutbeano@hibu.com');
+insert into author (first_name, birthday, email) values ('Leticia', '1908-04-05 21:00:09', 'ljohananoffp@mapy.cz');
+insert into author (first_name, birthday, email) values ('Fowler', '1965-05-11 04:39:48', 'fshallcrassq@businessweek.com');
+insert into author (first_name, birthday, email) values ('Ediva', '1948-12-01 10:39:45', 'eenochr@nba.com');
+insert into author (first_name, birthday, email) values ('Zulema', '1926-09-05 09:10:24', 'zbeekens@multiply.com');
+insert into author (first_name, birthday, email) values ('Britt', '1919-07-13 14:44:25', 'bhilaryt@dedecms.com');
+insert into author (first_name, birthday, email) values ('Trumann', '1964-09-03 12:13:35', 'tdowningu@unicef.org');
+insert into author (first_name, birthday, email) values ('Carolee', '1962-01-27 09:36:04', 'cauklandv@noaa.gov');
+insert into author (first_name, birthday, email) values ('Prentiss', '1955-07-30 10:47:48', 'padelbergw@uiuc.edu');
+insert into author (first_name, birthday, email) values ('Schuyler', '1975-05-19 05:25:36', 'ssaizx@shareasale.com');
+insert into author (first_name, birthday, email) values ('Erin', '1920-12-08 15:29:34', 'ecappelly@home.pl');
+insert into author (first_name, birthday, email) values ('Morgan', '1935-02-27 20:34:27', 'miredalez@businessweek.com');
+insert into author (first_name, birthday, email) values ('Olly', '1968-04-06 17:37:48', 'oheindl10@naver.com');
+insert into author (first_name, birthday, email) values ('Thatcher', '1967-04-14 11:59:36', 'tbouskill11@techcrunch.com');
+insert into author (first_name, birthday, email) values ('Dolph', '1914-09-16 10:40:02', 'dvince12@mit.edu');
+insert into author (first_name, birthday, email) values ('Harriet', '1963-06-17 11:10:59', 'hhuggons13@bandcamp.com');
+insert into author (first_name, birthday, email) values ('Josy', '1973-08-11 20:25:40', 'jvarrow14@marriott.com');
+insert into author (first_name, birthday, email) values ('Marmaduke', '1916-02-22 15:00:20', 'mhemphill15@mozilla.com');
+insert into author (first_name, birthday, email) values ('Rivkah', '1931-06-07 16:25:47', 'riacobucci16@artisteer.com');
+insert into author (first_name, birthday, email) values ('Nanice', '1948-04-09 14:52:00', 'ncorradeschi17@cdbaby.com');
+insert into author (first_name, birthday, email) values ('Viole', '1978-02-04 15:58:34', 'vmcrorie18@washington.edu');
+insert into author (first_name, birthday, email) values ('Marci', '1933-12-12 03:04:06', 'mcoat19@histats.com');
+insert into author (first_name, birthday, email) values ('Shanon', '1949-12-21 07:13:13', 'svolage1a@bluehost.com');
+insert into author (first_name, birthday, email) values ('Lynnea', '1975-12-12 05:27:40', 'lbaumler1b@sciencedaily.com');
+insert into author (first_name, birthday, email) values ('Aviva', '1973-04-29 02:54:40', 'acassedy1c@census.gov');
+insert into author (first_name, birthday, email) values ('Karia', '1935-07-07 04:53:38', 'kprinn1d@census.gov');
+
+--Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+
+UPDATE employee
+SET
+name = 'Silinecek'
+WHERE id <= 5 ;
+
+Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+
+DELETE FROM employee
+WHERE id <= 5 ;
